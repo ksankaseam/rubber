@@ -1,0 +1,10 @@
+import plotly.plotly as py
+import plotly.graph_objs as go
+
+data = [
+    go.Bar(
+        x=['Rubber smoked sheet', 'STR20', 'Concentrated Latex', 'Compound', 'Others', 'Total'],
+        y=[694510, 950574, 595550, 417499, 68060, 2726193]
+    )
+]
+plot_url = py.plot(data, filename='2552')
