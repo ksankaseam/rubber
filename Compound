@@ -1,0 +1,97 @@
+import plotly.plotly as py
+import plotly.graph_objs as go
+
+trace1 = go.Bar(
+    x=['Compound'],
+    y=[7381],
+    name='2542'
+)
+trace2 = go.Bar(
+    x=['Compound'],
+    y=[9626],
+    name='2543'
+)
+trace3 = go.Bar(
+    x=['Compound'],
+    y=[5344],
+    name='2544'
+)
+trace4 = go.Bar(
+    x=['Compound'],
+    y=[6886],
+    name='2545'
+)
+trace5 = go.Bar(
+    x=['Compound'],
+    y=[36608],
+    name='2546'
+)
+trace6 = go.Bar(
+    x=['Compound'],
+    y=[82443],
+    name='2547'
+)
+trace7 = go.Bar(
+    x=['Compound'],
+    y=[36700],
+    name='2548'
+)
+trace8 = go.Bar(
+    x=['Compound'],
+    y=[129564],
+    name='2549'
+)
+trace9 = go.Bar(
+    x=['Compound'],
+    y=[105151],
+    name='2550'
+)
+trace10 = go.Bar(
+    x=['Compound'],
+    y=[165164],
+    name='2551'
+)
+trace11 = go.Bar(
+    x=['Compound'],
+    y=[417499],
+    name='2552'
+)
+trace12 = go.Bar(
+    x=['Compound'],
+    y=[427661],
+    name='2553'
+)
+trace13 = go.Bar(
+    x=['Compound'],
+    y=[339942],
+    name='2554'
+)
+trace14 = go.Bar(
+    x=['Compound'],
+    y=[565229],
+    name='2555'
+)
+trace15 = go.Bar(
+    x=['Compound'],
+    y=[713299],
+    name='2556'
+)
+trace16 = go.Bar(
+    x=['Compound'],
+    y=[744739],
+    name='2557'
+)
+trace17 = go.Bar(
+    x=['Compound'],
+    y=[453929.6599],
+    name='2558'
+)
+data = [trace1, trace2, trace3, trace4, trace5, \
+		trace6, trace7, trace8,trace9, trace10, \
+		trace11, trace12, trace13, trace14, trace15, \
+		trace16, trace17]
+layout = go.Layout(
+    barmode='group'
+)
+fig = go.Figure(data=data, layout=layout)
+plot_url = py.plot(fig, filename='Compound')
