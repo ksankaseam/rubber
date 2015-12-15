@@ -1,0 +1,97 @@
+import plotly.plotly as py
+import plotly.graph_objs as go
+
+trace1 = go.Bar(
+    x=['Others'],
+    y=[49632],
+    name='2542'
+)
+trace2 = go.Bar(
+    x=['Others'],
+    y=[57237],
+    name='2543'
+)
+trace3 = go.Bar(
+    x=['Others'],
+    y=[55493],
+    name='2544'
+)
+trace4 = go.Bar(
+    x=['Others'],
+    y=[86517],
+    name='2545'
+)
+trace5 = go.Bar(
+    x=['Others'],
+    y=[65639],
+    name='2546'
+)
+trace6 = go.Bar(
+    x=['Others'],
+    y=[60236],
+    name='2547'
+)
+trace7 = go.Bar(
+    x=['Others'],
+    y=[76724],
+    name='2548'
+)
+trace8 = go.Bar(
+    x=['Others'],
+    y=[77875],
+    name='2549'
+)
+trace9 = go.Bar(
+    x=['Others'],
+    y=[77948],
+    name='2550'
+)
+trace10 = go.Bar(
+    x=['Others'],
+    y=[72060],
+    name='2551'
+)
+trace11 = go.Bar(
+    x=['Others'],
+    y=[68060],
+    name='2552'
+)
+trace12 = go.Bar(
+    x=['Others'],
+    y=[56879],
+    name='2553'
+)
+trace13 = go.Bar(
+    x=['Others'],
+    y=[44713],
+    name='2554'
+)
+trace14 = go.Bar(
+    x=['Others'],
+    y=[40583],
+    name='2555'
+)
+trace15 = go.Bar(
+    x=['Others'],
+    y=[83797],
+    name='2556'
+)
+trace16 = go.Bar(
+    x=['Others'],
+    y=[61032],
+    name='2557'
+)
+trace17 = go.Bar(
+    x=['Others'],
+    y=[62697.24703],
+    name='2558'
+)
+data = [trace1, trace2, trace3, trace4, trace5, \
+		trace6, trace7, trace8,trace9, trace10, \
+		trace11, trace12, trace13, trace14, trace15, \
+		trace16, trace17]
+layout = go.Layout(
+    barmode='group'
+)
+fig = go.Figure(data=data, layout=layout)
+plot_url = py.plot(fig, filename='Others')
