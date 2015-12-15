@@ -2,88 +2,88 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 
 trace1 = go.Bar(
-    x=['STR20'],
-    y=[540991],
+    x=['total'],
+    y=[1886339],
     name='2542'
 )
 trace2 = go.Bar(
-    x=['STR20'],
-    y=[808475],
+    x=['total'],
+    y=[2166153],
     name='2543'
 )
 trace3 = go.Bar(
-    x=['STR20'],
-    y=[763282],
+    x=['total'],
+    y=[2042079],
     name='2544'
 )
 trace4 = go.Bar(
-    x=['STR20'],
-    y=[828561],
+    x=['total'],
+    y=[2354416],
     name='2545'
 )
 trace5 = go.Bar(
-    x=['STR20'],
-    y=[912600],
+    x=['total'],
+    y=[2573450],
     name='2546'
 )
 trace6 = go.Bar(
-    x=['STR20'],
-    y=[997952],
+    x=['total'],
+    y=[2637096],
     name='2547'
 )
 trace7 = go.Bar(
-    x=['STR20'],
-    y=[1109327],
+    x=['total'],
+    y=[2632398],
     name='2548'
 )
 trace8 = go.Bar(
-    x=['STR20'],
-    y=[1069345],
+    x=['total'],
+    y=[2771673],
     name='2549'
 )
 trace9 = go.Bar(
-    x=['STR20'],
-    y=[1103848],
+    x=['total'],
+    y=[2703762],
     name='2550'
 )
 trace10 = go.Bar(
-    x=['STR20'],
-    y=[1132135],
+    x=['total'],
+    y=[2675283],
     name='2551'
 )
 trace11 = go.Bar(
-    x=['STR20'],
-    y=[950574],
+    x=['total'],
+    y=[2726193],
     name='2552'
 )
 trace12 = go.Bar(
-    x=['STR20'],
-    y=[1106412],
+    x=['total'],
+    y=[2866447],
     name='2553'
 )
 trace13 = go.Bar(
-    x=['STR20'],
-    y=[1300814],
+    x=['total'],
+    y=[2952381],
     name='2554'
 )
 trace14 = go.Bar(
-    x=['STR20'],
-    y=[1318417],
+    x=['total'],
+    y=[3121332],
     name='2555'
 )
 trace15 = go.Bar(
-    x=['STR20'],
-    y=[1392262],
+    x=['total'],
+    y=[3664941],
     name='2556'
 )
 trace16 = go.Bar(
-    x=['STR20'],
-    y=[1574605],
+    x=['total'],
+    y=[3770649],
     name='2557'
 )
 trace17 = go.Bar(
-    x=['STR20'],
-    y=[1246927.577],
+    x=['total'],
+    y=[2360136.497],
     name='2558'
 )
 data = [trace1, trace2, trace3, trace4, trace5, \
@@ -94,4 +94,4 @@ layout = go.Layout(
     barmode='group'
 )
 fig = go.Figure(data=data, layout=layout)
-plot_url = py.plot(fig, filename='STR20')
+plot_url = py.plot(fig, filename='total')
